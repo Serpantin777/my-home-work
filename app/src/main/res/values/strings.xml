@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">My_Home_Work_3</string>
-    <string name="hello">Hello</string>
+    <string name="hello">Осень</string>
     <string name="good">Good</string>
-    <string name="bye">BYE</string>
+    <string name="stih">
+        Как грустны сумрачные дни \n
+        Беззвучной осени и хладной! \n
+        Какой истомой безотрадной \n
+        К нам в душу просятся они! \n \n
+        Но есть и дни, когда в крови \n
+        Золотолиственных уборов \n
+        Горящих осень ищет взоров \n
+        И знойных прихотей любви. \n \n
+        Молчит стыдливая печаль, \n
+        Лишь вызывающее слышно, \n
+        И, замирающей так пышно, \n
+        Ей ничего уже не жаль. \n
+    </string>
+
 </resources>
