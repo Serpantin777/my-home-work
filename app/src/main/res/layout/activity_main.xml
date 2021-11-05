@@ -6,16 +6,20 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello"
-        android:textSize="25sp"
+        android:fontFamily="@font/firsttimewriting"
+        android:text="@string/name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
+        android:id="@+id/textView_stih"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/stih"
@@ -23,8 +27,38 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_name" />
 
+    <Button
+        android:id="@+id/button_exit"
+        style="@style/Theme.AndroidSandBox.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firsttimewriting"
+        android:text="@string/Button_Exit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_end"
+        app:layout_constraintStart_toEndOf="@+id/button_menu" />
 
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_end"
+        style="@style/Theme.AndroidSandBox.Button.Big"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/my_button"
+        android:text="@string/Button_End"
+        app:backgroundTint="@color/my_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

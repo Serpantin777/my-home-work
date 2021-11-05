@@ -5,7 +5,11 @@
       <map>
         <entry key="..\:/Job/myhomework/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1984375" />
         <entry key="..\:/Job/myhomework/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1984375" />
-        <entry key="..\:/Job/myhomework/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Job/myhomework/app/src/main/res/drawable/my_button.xml" value="0.23981481481481481" />
+        <entry key="..\:/Job/myhomework/app/src/main/res/drawable/my_button_press.xml" value="0.23981481481481481" />
+        <entry key="..\:/Job/myhomework/app/src/main/res/font/my.xml" value="0.20185185185185187" />
+        <entry key="..\:/Job/myhomework/app/src/main/res/font/my_fonts.xml" value="0.20185185185185187" />
+        <entry key="..\:/Job/myhomework/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
