@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Домашнее приложение</string>
     <string name="name">Осень</string>
-        <string name="stih">
+        <string name="poem">
         Как грустны сумрачные дни \n
         Беззвучной осени и хладной! \n
         Какой истомой безотрадной \n
@@ -14,8 +14,8 @@
         Лишь вызывающее слышно, \n
         И, замирающей так пышно, \n
         Ей ничего уже не жаль. \n   </string>
-    <string name="Button_End">Кнопка</string>
-    <string name="Button_Menu">Меню</string>
-    <string name="Button_Exit">Выход</string>
+    <string name="button_end">Кнопка</string>
+    <string name="button_menu">Меню</string>
+    <string name="button_exit">Выход</string>
 
 </resources>

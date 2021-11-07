@@ -9,7 +9,7 @@
         android:id="@+id/textView_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/firsttimewriting"
+        android:fontFamily="@font/my_font"
         android:text="@string/name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="40sp"
@@ -19,11 +19,12 @@
 
 
     <TextView
-        android:id="@+id/textView_stih"
+        android:id="@+id/textView_poem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/stih"
-        android:textSize="20sp"
+        android:text="@string/poem"
+        android:textSize="35sp"
+        android:fontFamily="@font/my_font_carmen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,12 +32,9 @@
 
     <Button
         android:id="@+id/button_exit"
-        style="@style/Theme.AndroidSandBox.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/firsttimewriting"
-        android:text="@string/Button_Exit"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="@string/button_exit"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_end"
@@ -46,17 +44,17 @@
         android:id="@+id/button_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Button_Menu"
+        android:text="@string/button_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_end"
         style="@style/Theme.AndroidSandBox.Button.Big"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/my_button"
-        android:text="@string/Button_End"
+        android:text="@string/button_end"
         app:backgroundTint="@color/my_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

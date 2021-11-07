@@ -24,7 +24,7 @@ class MainActivity<view> : AppCompatActivity() {
     private fun showSnackbar(view: View){
         Snackbar.make(this, view, "Ничего тут нет!", Snackbar.LENGTH_INDEFINITE)
             .setAction("Жми!"){
-                Toast.makeText(this, "Good by!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Good bye!", Toast.LENGTH_LONG).show()
             }
             .show()
     }
